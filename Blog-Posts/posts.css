@@ -86,37 +86,20 @@ main .desc {
   letter-spacing: 4px;
 }
 
-/* Main End */
-
-/* Blogs Sections Start */
-
-.Blogs {
-  width: 60vw;
-  margin: 10vh auto;
+section {
+  width: 70vw;
+  margin: auto;
 }
 
-.blog-titles a {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  flex-direction: column;
-  margin-block: 2vh;
-  font-size: 1.8em;
+section h2 {
+  font-size: 3em;
+  margin-block: 2vh 4vh;
+}
+
+section p {
+  font-size: 1.5em;
+  margin-block: 1vh 4vh;
   color: var(--secondary-text-color--);
-  transition: transform 0.2s;
-  -webkit-transition: transform 0.2s;
-  -moz-transition: transform 0.2s;
-  -ms-transition: transform 0.2s;
-  -o-transition: transform 0.2s;
 }
 
-.blog-titles a:hover {
-  color: var(--primary-text-color--);
-  transform: scale(1.02);
-  -webkit-transform: scale(1.02);
-  -moz-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  -o-transform: scale(1.02);
-}
-
-/* Blogs Sections End */
+/* Main End */
