@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start with basics knowledge of WEB DEV</title>
+    <link
+      rel="shortcut icon"
+      href="../Assets/nav-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./posts.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <img src="../Assets/nav-logo.png" alt="nav-logo" />
+        </div>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">#</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Navbar End -->
+
+    <!-- Main Start -->
+
+    <main>
+      <h1 class="heading">Start with basics knowledge of Web Development</h1>
+    </main>
+
+    <section>
+      <h2>HTTP - HyperText Transfer Protocol</h2>
+      <p>
+        <span>Hypertext - </span> is text that includes links like (
+        <a href="https://www.google.com/" target="_blank"
+          >https://www.google.com/</a
+        >
+        ) Users move from one webpage to another.
+      </p>
+
+      <p>
+        <span>Transfer - </span> process of exchanging data between client (
+        browser ) and server.
+      </p>
+
+      <p>
+        <span>Protocol - </span> Set of rules that web browsers and servers
+        follow to communicate and exchange information.
+      </p>
+
+      <h2>Browser Developer Tools</h2>
+      <p>
+        Browser developer tools provide developers to modify web pages in
+        real-time.
+      </p>
+
+      <p>
+        <span>Inspector Tab - </span>Inspect and edit html, css and js, Apply
+        css styles and see changes reflected instantly, View and modify the DOM
+        ( Document Object Model ) structure.
+      </p>
+
+      <p>
+        <span>Console Tab - </span>Interact with JavaScript code, Log messages
+        and debug errors, Run JavaScript commands directly in the browser
+      </p>
+
+      <p>
+        <span>Network Tab - </span>Analyze network requests and responses,
+        Monitor resource loading times and identify performance bottlenecks,
+        Inspect headers, cookies, and other request / response details.
+      </p>
+
+      <h2>Stateless Protocol</h2>
+      <p>
+        Every time you visit website, you are a new user, There is no memory of
+        previous request.
+      </p>
+
+      <p>Eg. Game Level Checkpoint, Youtube Video Watch History</p>
+
+      <h2>Session - Cookie</h2>
+      <p>
+        Stored state between frontend and backend, Temporary Interaction between
+        browser and server stored in cookies format.
+      </p>
+
+      <p>
+        Cookie is a small piece of data that a website sends to your web
+        browser, stored on your computer or device
+      </p>
+
+      <p>
+        This cookie acts as a memory, allowing it to remember information about
+        your visit, such as your preferences, login status, etc. . .
+      </p>
+
+      <h2>HTTP Headers</h2>
+      <p>Additional information Send from server to browser</p>
+      <p>
+        Client which browser is using like Chrome - Safari - FireFox, Date -
+        Time & Cookies
+      </p>
+      <p>
+        Example - If we know user which system is using like Android or IOS we
+        use used this information and Send Pop-Up to download specific version
+        of application.
+      </p>
+
+      <h2>RRM - Request Response Model</h2>
+      <img src="../Assets/RRM.webp" alt="Request Response Model image" />
+      <p>Browser send request to server - Server send response to browser</p>
+      <p>
+        User sent request (
+        <a href="https://www.google.com/" target="_blank"
+          >https://www.google.com/</a
+        >
+        ) to server, Then Server sent ( HTML - CSS - JavaScript ) files as a
+        response and website loads.
+      </p>
+
+      <img src="../Assets/request_method.png" alt="Request Method Image" />
+
+      <h2>Response Status Code</h2>
+      <p>1. Informational responses ( 100 – 199 )</p>
+      <p>2. Successful responses ( 200 – 299 )</p>
+      <p>3. Redirection messages ( 300 – 399 )</p>
+      <p>4. Client error responses ( 400 – 499 )</p>
+      <p>5. Server error responses ( 500 – 599 )</p>
+
+      <h2>Evolution of HTTP</h2>
+      <p><span>HTTP V1 - </span>Send one request and get one response, Image</p>
+
+      <p>
+        <span>HTTP V2 - </span>Multiplexing send multiple requests and responses
+        on the same connection concurrently.
+      </p>
+
+      <p>HTTP Encryption <span>( HTTPS )</span> and Compression.</p>
+
+      <p>
+        <span>HTTP V3 - </span> Faster connection establishment,Improved
+        performance in unreliable network conditions,Better packet loss
+        handling.
+      </p>
+
+      <p>
+        HTTP version represents a step towards more efficient and robust web
+        communication.
+      </p>
+
+      <h2>Tech Jargons</h2>
+      <p><span>User Agent - </span> Browser ( Client )</p>
+      <p><span>Headers - </span> Additional information</p>
+      <p><span>IP - </span> Internet Protocol</p>
+      <p><span>FTP - </span> File Transfer Protocol</p>
+      <p><span>TCP - </span> Transmission Control Protocol</p>
+      <p><span>URL - </span> Uniform Resource Locator</p>
+      <p><span>Cache - </span> Stored data</p>
+      <p><span>DNS - </span>Domain Name System Server ( Points URL to IP )</p>
+      <p><span>Payload - </span> Actual data ( E-Mail, Password)</p>
+
+      <h2>Browser Server Summery</h2>
+      <p>⚪ Setup TCP Connection</p>
+      <p>⚪ Exchange TLC Certificate ( HTTPS )</p>
+      <p>⚪ Send Request + URL + Data + More Information</p>
+      <p>⚪ Get Response back with status code and data</p>
+      <p>⚪ TCP connection closed.</p>
+    </section>
+
+    <!-- Main End -->
+  </body>
+</html>

@@ -9,6 +9,7 @@
   --body-bg-color--: #171717;
   --primary-text-color--: #ffffff;
   --secondary-text-color--: #c7c7c7;
+  --highlight-color--: #ff2f00;
 }
 
 a {
@@ -69,7 +70,7 @@ nav {
 
 main {
   width: 70vw;
-  height: 20vh;
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,6 +81,7 @@ main {
 
 main .heading {
   font-size: 3.5em;
+  margin-block: 5vh 15vh;
 }
 main .desc {
   font-size: 1.5em;
@@ -89,10 +91,11 @@ main .desc {
 section {
   width: 70vw;
   margin: auto;
+  text-align: justify;
 }
 
 section h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-block: 2vh 4vh;
 }
 
@@ -100,6 +103,21 @@ section p {
   font-size: 1.5em;
   margin-block: 1vh 4vh;
   color: var(--secondary-text-color--);
+}
+
+section a {
+  color: var(--highlight-color--);
+}
+section span {
+  color: var(--highlight-color--);
+  font-weight: 700;
+}
+
+section img {
+  width: 60%;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  background-color: var(--secondary-text-color--);
 }
 
 /* Main End */
