@@ -121,3 +121,54 @@ section img {
 }
 
 /* Main End */
+
+@media only screen and (max-width: 1055px) {
+  /* body {
+    background-color: rebeccapurple;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 20vh;
+    padding: 10px;
+  }
+  main {
+    width: 80vw;
+    height: auto;
+  }
+  main .heading {
+    font-size: 3em;
+  }
+  section h2 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* body {
+    background-color: red;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 10vh;
+    padding: 10px;
+  }
+  main {
+    width: 95vw;
+  }
+  main .heading {
+    font-size: 2em;
+  }
+  section {
+    width: 95vw;
+  }
+  section h2 {
+    font-size: 1.8em;
+  }
+  section p {
+    font-size: 1.2em;
+  }
+  section img {
+    width: 100%;
+  }
+}
