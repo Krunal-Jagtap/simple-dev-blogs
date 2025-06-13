@@ -69,13 +69,15 @@ nav {
 
 main {
   width: 70vw;
-  height: 20vh;
+  /* height: 20vh; */
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: auto;
   gap: 3vh;
+  text-align: center;
 }
 
 main .heading {
@@ -120,3 +122,43 @@ main .desc {
 }
 
 /* Blogs Sections End */
+@media only screen and (max-width: 1207px) {
+  /* body {
+    background-color: rebeccapurple;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 20vh;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* body {
+    background-color: red;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 15vh;
+    padding: 10px;
+  }
+  main {
+    width: 95vw;
+    height: auto;
+  }
+  main .heading {
+    font-size: 1.7em;
+  }
+  main .desc {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+  }
+  .Blogs {
+    width: 90vw;
+    margin: 5vh auto;
+  }
+  .blog-titles a {
+    font-size: 1.2em;
+  }
+}
