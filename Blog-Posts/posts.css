@@ -120,6 +120,11 @@ section img {
   background-color: var(--secondary-text-color--);
 }
 
+.Completely {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
 /* Main End */
 
 @media only screen and (max-width: 1055px) {
