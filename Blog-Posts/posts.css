@@ -12,6 +12,20 @@
   --highlight-color--: #ff2f00;
 }
 
+/* Utility  */
+.CSS-color {
+  background-color: #6a5acd;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* Utility  */
+
 a {
   color: var(--primary-text-color--);
   text-decoration: none;
