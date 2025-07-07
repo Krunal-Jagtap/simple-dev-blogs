@@ -28,7 +28,7 @@ body {
 
 header {
   width: 100%;
-  height: 25vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ header {
 
 nav {
   width: 80vw;
-  height: 25vh;
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,11 +81,11 @@ main {
 }
 
 main .heading {
-  font-size: 3.5em;
+  font-size: 2.4em;
 }
 main .desc {
   font-size: 1.5em;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
 
 /* Main End */
@@ -103,13 +103,15 @@ main .desc {
   align-items: start;
   flex-direction: column;
   margin-block: 2vh;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: var(--secondary-text-color--);
   transition: transform 0.2s;
   -webkit-transition: transform 0.2s;
   -moz-transition: transform 0.2s;
   -ms-transition: transform 0.2s;
   -o-transition: transform 0.2s;
+  border-bottom: 0.2px solid var(--secondary-text-color--);
+  border-bottom-style: dotted;
 }
 
 .blog-titles a:hover {

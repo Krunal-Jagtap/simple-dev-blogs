@@ -42,7 +42,7 @@ body {
 
 header {
   width: 100%;
-  height: 25vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ header {
 
 nav {
   width: 80vw;
-  height: 25vh;
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,12 +94,12 @@ main {
 }
 
 main .heading {
-  font-size: 3.5em;
+  font-size: 2.4em;
   margin-block: 5vh 15vh;
 }
 main .desc {
   font-size: 1.5em;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
 }
 
 section {
@@ -109,13 +109,13 @@ section {
 }
 
 section h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-block: 2vh 4vh;
 }
 
 section p {
-  font-size: 1.5em;
-  margin-block: 1vh 4vh;
+  font-size: 1.2em;
+  margin-block: 1vh 2vh;
   color: var(--secondary-text-color--);
 }
 
@@ -128,15 +128,26 @@ section span {
 }
 
 section img {
-  width: 60%;
-  /* filter: grayscale(1);
-  -webkit-filter: grayscale(1); */
+  width: 50%;
+  height: 50%;
+  background-size: cover;
   background-color: var(--secondary-text-color--);
 }
 
 .Completely {
+  height: auto;
+  margin-block: 10vh 0vh;
+  padding: 20px;
   text-align: center;
   letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+.learn {
+  font-size: 1em;
 }
 
 /* Main End */
@@ -193,6 +204,7 @@ footer a {
   }
   main {
     width: 95vw;
+    text-align: center;
   }
   main .heading {
     font-size: 2em;
@@ -202,11 +214,23 @@ footer a {
   }
   section h2 {
     font-size: 1.8em;
+    text-align: center;
   }
   section p {
     font-size: 1.2em;
   }
   section img {
     width: 100%;
+  }
+  .CSS-color {
+    padding: 2px 5px;
+    font-size: small;
+  }
+  .Completely {
+    height: auto;
+    padding: 0px;
+  }
+  .Completely p {
+    font-size: 1em;
   }
 }
