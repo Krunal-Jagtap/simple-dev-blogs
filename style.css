@@ -113,6 +113,7 @@ main .desc {
   -o-transition: transform 0.2s;
   border-bottom: 0.2px solid var(--secondary-text-color--);
   border-bottom-style: dotted;
+  transition: all 0.3s ease;
 }
 
 .blog-titles a:hover {
