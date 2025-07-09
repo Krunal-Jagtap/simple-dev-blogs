@@ -113,7 +113,7 @@ main .desc {
 }
 
 .blog-titles a:hover {
-  color: var(--highlight-color--);
+  color: var(--primary-text-color--);
 }
 
 /* Blogs Sections End */
