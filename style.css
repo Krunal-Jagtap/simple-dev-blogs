@@ -59,6 +59,16 @@ nav {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px var(--primary-text-color--);
+  transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+}
+.nav-logo img:hover {
+  rotate: 360deg;
+  box-shadow: 0px 0px 10px 5px var(--highlight-color--);
 }
 
 .nav-links a {
