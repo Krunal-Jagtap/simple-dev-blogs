@@ -64,18 +64,7 @@ main .desc {
 
 /* Blogs Sections Start */
 
-.Blogs {
-  width: 60vw;
-  margin: 10vh auto;
-}
-
 .blog-titles a {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  flex-direction: column;
-  margin-block: 2vh;
-  font-size: 1.5em;
   color: var(--secondary-text-color--);
   border-bottom: 0.2px solid var(--secondary-text-color--);
   border-bottom-style: dotted;
@@ -88,61 +77,15 @@ main .desc {
 /* Blogs Sections End */
 
 /* Footer Start */
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 25vh;
-}
 
 footer p {
+  color: var(--secondary-text-color--);
   letter-spacing: 2px;
   font-size: 1.2em;
 }
 
 footer a {
+  color: var(--primary-text-color--);
   border-bottom: 5px solid var(--highlight-color--);
 }
 /* Footer End */
-
-@media only screen and (max-width: 1207px) {
-  /* body {
-    background-color: rebeccapurple;
-  } */
-  nav,
-  header {
-    width: 95vw;
-    height: 20vh;
-    padding: 10px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  /* body {
-    background-color: red;
-  } */
-  nav,
-  header {
-    width: 95vw;
-    height: 15vh;
-    padding: 10px;
-  }
-  main {
-    width: 95vw;
-    height: auto;
-  }
-  main .heading {
-    font-size: 1.7em;
-  }
-  main .desc {
-    font-size: 1.2em;
-    letter-spacing: 1px;
-  }
-  .Blogs {
-    width: 90vw;
-    margin: 5vh auto;
-  }
-  .blog-titles a {
-    font-size: 1.2em;
-  }
-}
