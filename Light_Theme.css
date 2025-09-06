@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  user-select: none;
+}
+
+:root {
+  --body-bg-color--: #ffffff;
+  --primary-text-color--: #000000;
+  --secondary-text-color--: #3d3d3d;
+  --highlight-color--: #ff2f00;
+}
+
+a {
+  color: var(--primary-text-color--);
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--body-bg-color--);
+  color: var(--primary-text-color--);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Navbar Start */
+
+.nav-logo img {
+  box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset,
+    rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: 0px 0px 10px 5px var(--secondary-text-color--);
+}
+.nav-logo img:hover {
+  rotate: 360deg;
+  box-shadow: 0px 0px 10px 5px var(--highlight-color--);
+}
+
+.nav-links img {
+  box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset,
+    rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: 0px 0px 10px 5px var(--primary-text-color--);
+}
+.nav-links img:hover {
+  box-shadow: 0px 0px 10px 5px var(--highlight-color--);
+}
+
+/* Navbar End */
+
+/* Main Start */
+
+main .heading {
+  color: var(--primary-text-color--);
+  font-size: 2.4em;
+}
+main .desc {
+  font-size: 1.5em;
+  color: var(--secondary-text-color--);
+  letter-spacing: 5px;
+}
+
+/* Main End */
+
+/* Blogs Sections Start */
+
+.Blogs {
+  width: 60vw;
+  margin: 10vh auto;
+}
+
+.blog-titles a {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-block: 2vh;
+  font-size: 1.5em;
+  color: var(--secondary-text-color--);
+  border-bottom: 0.2px solid var(--secondary-text-color--);
+  border-bottom-style: dotted;
+}
+
+.blog-titles a:hover {
+  color: var(--primary-text-color--);
+}
+
+/* Blogs Sections End */
+
+/* Footer Start */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+}
+
+footer p {
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+footer a {
+  border-bottom: 5px solid var(--highlight-color--);
+}
+/* Footer End */
+
+@media only screen and (max-width: 1207px) {
+  /* body {
+    background-color: rebeccapurple;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 20vh;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* body {
+    background-color: red;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 15vh;
+    padding: 10px;
+  }
+  main {
+    width: 95vw;
+    height: auto;
+  }
+  main .heading {
+    font-size: 1.7em;
+  }
+  main .desc {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+  }
+  .Blogs {
+    width: 90vw;
+    margin: 5vh auto;
+  }
+  .blog-titles a {
+    font-size: 1.2em;
+  }
+}
