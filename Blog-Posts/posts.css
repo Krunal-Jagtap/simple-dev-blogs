@@ -80,10 +80,12 @@ nav {
   -ms-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
 }
+
 .nav-logo img:hover {
   rotate: 360deg;
   box-shadow: 0px 0px 10px 5px var(--highlight-color--);
 }
+
 .nav-links img {
   width: 50%;
   height: 15%;
@@ -102,9 +104,11 @@ nav {
   -ms-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
 }
+
 .nav-links img:hover {
   box-shadow: 0px 0px 10px 5px var(--highlight-color--);
 }
+
 .nav-links a {
   font-size: 1.6em;
   font-weight: 600;
@@ -129,6 +133,7 @@ main .heading {
   font-size: 2.4em;
   margin-block: 5vh 15vh;
 }
+
 main .desc {
   font-size: 1.5em;
   letter-spacing: 5px;
@@ -154,6 +159,7 @@ section p {
 section a {
   color: var(--highlight-color--);
 }
+
 section span {
   color: var(--highlight-color--);
   font-weight: 700;
@@ -211,11 +217,13 @@ code {
   -ms-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
 }
+
 code:hover {
   user-select: text;
   cursor: text;
   box-shadow: 0px 0px 10px 5px var(--highlight-color--);
 }
+
 /* Main End */
 
 /* Footer Start */
@@ -235,6 +243,7 @@ footer p {
 footer a {
   border-bottom: 5px solid var(--highlight-color--);
 }
+
 /* Footer End */
 
 @media only screen and (max-width: 1055px) {
@@ -247,17 +256,21 @@ footer a {
     height: 20vh;
     padding: 10px;
   }
+
   main {
     width: 80vw;
     height: auto;
   }
+
   main .heading {
     font-size: 3em;
   }
+
   section h2 {
     font-size: 2em;
   }
 }
+
 @media only screen and (max-width: 500px) {
   /* body {
     background-color: red;
@@ -268,34 +281,43 @@ footer a {
     height: 10vh;
     padding: 10px;
   }
+
   main {
     width: 95vw;
     text-align: center;
   }
+
   main .heading {
     font-size: 2em;
   }
+
   section {
     width: 95vw;
   }
+
   section h2 {
     font-size: 1.8em;
     text-align: center;
   }
+
   section p {
     font-size: 1.2em;
   }
+
   section img {
     width: 100%;
   }
+
   .CSS-color {
     padding: 2px 5px;
     font-size: small;
   }
+
   .Completely {
     height: auto;
     padding: 0px;
   }
+
   .Completely p {
     font-size: 1em;
   }

@@ -66,6 +66,7 @@ nav {
   -ms-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
 }
+
 .nav-logo img:hover {
   rotate: 360deg;
   box-shadow: 0px 0px 10px 5px var(--highlight-color--);
@@ -89,6 +90,7 @@ nav {
   -ms-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
 }
+
 .nav-links img:hover {
   box-shadow: 0px 0px 10px 5px var(--highlight-color--);
 }
@@ -118,6 +120,7 @@ main {
 main .heading {
   font-size: 2.4em;
 }
+
 main .desc {
   font-size: 1.5em;
   letter-spacing: 5px;
@@ -167,6 +170,7 @@ footer p {
 footer a {
   border-bottom: 5px solid var(--highlight-color--);
 }
+
 /* Footer End */
 
 @media only screen and (max-width: 1207px) {
@@ -180,6 +184,7 @@ footer a {
     padding: 10px;
   }
 }
+
 @media only screen and (max-width: 500px) {
   /* body {
     background-color: red;
@@ -190,21 +195,26 @@ footer a {
     height: 15vh;
     padding: 10px;
   }
+
   main {
     width: 95vw;
     height: auto;
   }
+
   main .heading {
     font-size: 1.7em;
   }
+
   main .desc {
     font-size: 1.2em;
     letter-spacing: 1px;
   }
+
   .Blogs {
     width: 90vw;
     margin: 5vh auto;
   }
+
   .blog-titles a {
     font-size: 1.2em;
   }
