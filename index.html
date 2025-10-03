@@ -19,7 +19,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="Light_Theme.css" /> -->
+    <link id="styleLink" rel="stylesheet" href="Dark_Theme.css" />
   </head>
 
   <body>
@@ -29,7 +29,7 @@
       <nav>
         <div class="nav-logo">
           <a href="https://simple-dev-blogs.netlify.app/">
-            <img src="./Assets/nav-logo.webp" alt="nav-logo" />
+            <img id="changeTheme" src="./Assets/nav-logo.webp" alt="nav-logo" />
           </a>
         </div>
 
@@ -41,6 +41,7 @@
                 target="_blank"
                 title="GitHub Krunal-Jagtap"
                 ><img
+                  id="githubLogo"
                   src="/Assets/github-mark-white.svg"
                   alt="Krunal-Jagtap GitHub Profile"
               /></a>
@@ -115,5 +116,6 @@
     <!-- Link GSAP Using CDN Link -->
 
     <script src="Animation_Script.js"></script>
+    <script src="Script.js"></script>
   </body>
 </html>
