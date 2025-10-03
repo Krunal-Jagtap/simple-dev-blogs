@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  user-select: none;
+}
+
+:root {
+  --body-bg-color--: #171717;
+  --primary-text-color--: #ffffff;
+  --secondary-text-color--: #c7c7c7;
+  --highlight-color--: #ff2f00;
+}
+
+a {
+  color: var(--primary-text-color--);
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--body-bg-color--);
+  color: var(--primary-text-color--);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Navbar Start */
+
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 95vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(8px);
+}
+
+.nav-logo img {
+  width: 15%;
+  height: 15%;
+  padding: 5px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px var(--primary-text-color--);
+  transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+}
+
+.nav-logo img:hover {
+  rotate: 360deg;
+  box-shadow: 0px 0px 10px 5px var(--highlight-color--);
+}
+
+.nav-links img {
+  width: 50%;
+  height: 15%;
+  padding: 5px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px var(--primary-text-color--);
+  transition: 0.5s ease all;
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+}
+
+.nav-links img:hover {
+  box-shadow: 0px 0px 10px 5px var(--highlight-color--);
+}
+
+.nav-links a {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+/* Navbar End */
+
+/* Main Start */
+
+main {
+  width: 70vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 3vh;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+main .heading {
+  font-size: 2.4em;
+}
+
+main .desc {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+
+/* Main End */
+
+/* Blogs Sections Start */
+
+.Blogs {
+  width: 60vw;
+  margin: 10vh auto;
+}
+
+.blog-titles a {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-block: 2vh;
+  font-size: 1.5em;
+  color: var(--secondary-text-color--);
+  border-bottom: 0.2px solid var(--secondary-text-color--);
+  border-bottom-style: dotted;
+}
+
+.blog-titles a:hover {
+  color: var(--primary-text-color--);
+}
+
+/* Blogs Sections End */
+
+/* Footer Start */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25vh;
+}
+
+footer p {
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+footer a {
+  border-bottom: 5px solid var(--highlight-color--);
+}
+
+/* Footer End */
+
+@media only screen and (max-width: 1207px) {
+  /* body {
+    background-color: rebeccapurple;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 20vh;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* body {
+    background-color: red;
+  } */
+  nav,
+  header {
+    width: 95vw;
+    height: 15vh;
+    padding: 10px;
+  }
+
+  main {
+    width: 95vw;
+    height: auto;
+  }
+
+  main .heading {
+    font-size: 1.7em;
+  }
+
+  main .desc {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+  }
+
+  .Blogs {
+    width: 90vw;
+    margin: 5vh auto;
+  }
+
+  .blog-titles a {
+    font-size: 1.2em;
+  }
+}

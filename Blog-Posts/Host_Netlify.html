@@ -18,7 +18,9 @@
       href="../Assets/nav-logo.ico"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="./posts.css" />
+    <link id="styleLink" rel="stylesheet" href="../Dark_Theme.css" />
   </head>
   <body>
     <!-- Navbar Start -->
@@ -28,6 +30,7 @@
         <div class="nav-logo">
           <a href="https://simple-dev-blogs.netlify.app/">
             <img
+              id="changeTheme"
               title="Hold Click to Zoom"
               src="https://simple-dev-blogs.netlify.app/Assets/nav-logo.webp"
               alt="nav-logo"
@@ -43,7 +46,8 @@
                 target="_blank"
                 title="GitHub Krunal-Jagtap"
                 ><img
-                  src="/Assets/github-mark-white.svg"
+                  id="githubLogo"
+                  src="../Assets/github-mark-white.svg"
                   alt="Krunal-Jagtap GitHub Profile"
               /></a>
             </li>
@@ -131,5 +135,6 @@
       </p>
     </footer>
     <!-- Footer End -->
+    <script src="../Script.js"></script>
   </body>
 </html>
