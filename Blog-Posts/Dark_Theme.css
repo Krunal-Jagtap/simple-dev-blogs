@@ -194,15 +194,18 @@ footer a {
     width: 95vw;
     height: 15vh;
     padding: 10px;
+    margin: auto;
   }
 
   main {
-    width: 95vw;
+    width: 90vw;
     height: auto;
+    padding-bottom: 0vh;
   }
 
   main .heading {
     font-size: 1.7em;
+    margin-block: 5vh 0vh;
   }
 
   main .desc {
@@ -217,5 +220,9 @@ footer a {
 
   .blog-titles a {
     font-size: 1.2em;
+  }
+
+  .Completely {
+    letter-spacing: 1px;
   }
 }
